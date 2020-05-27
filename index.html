@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>This is ME from A to Z</title>
+  </head>
+  <body>
+<!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.html">This is ME from A to Z</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profiles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Coloring Pages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About the Author</a>
+            </li>
+          </ul>
+          <button class="btn btn-outline-info" type="submit">Purchase</button>
+        </div>
+      </nav>
+<!-- Circle grid Left-->
+    <div class="container mt-4">
+        <div class="d-flex flex-row">
+          <div class="flex-column">
+            <div class="col-sm-2 mb-5">
+                <img src="imgs/Letter_F.png" class="rounded-circle" width="175">
+            </div>
+            <div class="col-sm-2 mb-5">
+              <img src="imgs/Letter_O.png" class="rounded-circle floated-right" width="175">
+            </div>
+            <div class="col-sm-2">
+              <img src="imgs/Letter_W.png" class="rounded-circle" width="175">
+            </div>
+          </div>
+<!-- Book Image -->
+          <div class="flex-column">
+            <div class="col">
+                <img src="imgs/FrontCover.png" class="img-thumbnail img-fluid">
+            </div>
+          </div>
+<!-- Circle Grid Right -->
+          <div class="flex-column">
+            <div class="col-sm-2 mb-5">
+              <img src="imgs/Letter_L.png" class="rounded-circle floated-right" width="175">
+            </div>
+            <div class="col-sm-2 mb-5">
+              <img src="imgs/Letter_Talia.png" class="rounded-circle floated-right" width="175">
+            </div>
+            <div class="col-sm-2">
+                <img src="imgs/Letter_U.png" class="rounded-circle floated-right" width="175">
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Sign up form -->
+<form class="container form-inline justify-content-center mt-5">
+  <div class="form-group">
+      <div>
+        <input type="text" class="form-control mx-3" placeholder="What is your name?">
+      </div>
+      <div>
+        <input type="email" class="form-control mx-3" placeholder="Email Address">
+      </div>
+      <label for="birthday">Birthday:</label>
+      <div>
+        <input type="date" id="birthday" class="form-control mx-3" placeholder="mm/dd/yyyy">
+      </div>
+      <button class="btn btn-dark" type="submit">Sign me up!</button>
+  </div>
+</form>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
