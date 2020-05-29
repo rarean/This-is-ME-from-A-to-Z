@@ -1,3 +1,10 @@
 body{
     background-color: lightgoldenrodyellow;
 }
+.fa-angle-double-left, .fa-angle-double-right{
+    color: black
+}
+.cover{
+    width: 650px;
+    height: 650px;
+}
