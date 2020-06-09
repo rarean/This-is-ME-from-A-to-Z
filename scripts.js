@@ -6,4 +6,7 @@ function choosePic() {
       let randomNum = Math.floor(Math.random() * myPix.length);
       img[i].src = myPix[randomNum];
     }
-}
+
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
