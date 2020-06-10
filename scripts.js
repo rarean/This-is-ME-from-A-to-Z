@@ -1,9 +1,5 @@
 
 $(function(){
-  $("#nav-placeholder").load("nav.html");
-  $.get("nav.html", function(data){
-       $("#nav-placeholder").replaceWith(data);
-    });
     function choosePic() {
       var img = document.querySelectorAll(".rounded-circle");
         for(i=0; i < img.length; i++){
