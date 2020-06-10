@@ -1,3 +1,4 @@
+
 $(function(){
   $("#nav-placeholder").load("nav.html");
   $.get("nav.html", function(data){
@@ -12,3 +13,4 @@ $(function(){
         }
       }
 });
+
