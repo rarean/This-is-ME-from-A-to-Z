@@ -49,26 +49,26 @@
             <div class="modal-body">
               <div class="container-fluid">
                 <form>
-                  <div class="form-row">
-                    <div class="form-group col">
-                      <img src="Imgs/FrontCover.png" width="150">
+                  <div class="form-row justify-around">
+                    <div class="form-group col-md-4">
+                      <img src="img/FrontCover.png" width="150" class="img-thumbnail">
                     </div>
-                    <div class="form-group col">
-                      <input type="number" placeholder="Quantity">
+                    <div class="form-group col-lg-4">
+                      <input type="number" placeholder="Quantity" id="bookNum">
                     </div>
-                    <div class="form-group col">
-                      Price: <input type="text">
+                    <div class="form-group col-lg-4">
+                      Price: <input type="text"> <br>
                       Shipping: <input type="text">
                     </div>
                   </div>
                   <div class="form-row">
-                    <div class="form-group col">
-                      <img src="imgs/ActivityBookFrontCover.png" width="150">
+                    <div class="form-group col-md-4">
+                      <img src="img/ActivityBookFrontCover.png" width="150" class="img-thumbnail">
                     </div>
-                    <div class="form-group col">
+                    <div class="form-group col-lg-4">
                       <input type="number" placeholder="Quantity">
                     </div>
-                    <div class="form-group col">
+                    <div class="form-group col-lg-4">
                       Total: <input type="text">
                       <button type="submit" class="btn btn-success btn-lg">Purchase Here!</button>
                     </div>
@@ -76,9 +76,14 @@
                 </form> 
               </div>
             </div>
+            <!-- look up: 1. text boxes on bootstrap, width & height
+                          2. how to align things in the modal
+                          3. how to store an input-->
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Save changes</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            <div class="justify-content-bottom">
+              <p>No but really, if you want to purchase <a href="www.amazon.com/" target="_blank">CLICK HERE</a></p>
             </div>
           </div>
         </div>
@@ -86,33 +91,33 @@
     <div class="container">
         <div class="row d-flex justify-content-center align-items-center">
           <!-- Circle grid Left-->
-          <div class="d-none d-md-flex flex-column mx-2">
+          <div class="d-none d-lg-flex flex-column mx-2">
             <div class="col my-5">
-                <img src="imgs/Letter_F.png" class="rounded-circle" width="175">
+                <img src="img/Letter_F.png" class="rounded-circle" width="175">
             </div>
             <div class="col my-5">
-              <img src="imgs/Letter_O.png" class="rounded-circle align" width="175">
+              <img src="img/Letter_O.png" class="rounded-circle align" width="175">
             </div>
             <div class="col my-5">
-              <img src="imgs/Letter_W.png" class="rounded-circle" width="175">
+              <img src="img/Letter_W.png" class="rounded-circle" width="175">
             </div>
           </div>         
           <!-- Book Image -->
           <div class="cover d-flex flex-column mx-2">
             <div class="col mb-5">
-                <img src="imgs/FrontCover.png" class="img-thumbnail img-fluid">
+                <img src="img/FrontCover.png" class="img-thumbnail img-fluid">
             </div>
           </div>
           <!-- Circle Grid Right -->
-          <div class="d-md-flex d-none flex-column mx-2 d-md-block">
+          <div class="d-lg-flex d-none flex-column mx-2">
             <div class="col my-5">
-              <img src="imgs/Letter_L.png" class="rounded-circle" width="175">
+              <img src="img/Letter_L.png" class="rounded-circle" width="175">
             </div>
             <div class="col my-5">
-              <img src="imgs/Letter_Talia.png" class="rounded-circle" width="175">
+              <img src="img/Letter_Talia.png" class="rounded-circle" width="175">
             </div>
             <div class="col my-5">
-                <img src="imgs/Letter_U.png" class="rounded-circle" width="175">
+                <img src="img/Letter_U.png" class="rounded-circle" width="175">
             </div> 
           </div>
         </div>
